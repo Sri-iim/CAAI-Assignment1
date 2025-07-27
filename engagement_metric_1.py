@@ -14,6 +14,10 @@ import numpy as np
 from datetime import datetime
 from docx import Document
 from docx.shared import Inches
+!pip install matplotlib
+import matplotlib.pyplot as plt
+matplotlib
+
 from sklearn.ensemble import IsolationForest
 import os
 
@@ -123,3 +127,4 @@ for insight in insights:
 # ========== Save Report ==========
 doc.save("EDA_EngagementMetrics_Report.docx")
 print("✅ EDA Report generated: EDA_EngagementMetrics_Report.docx")
+

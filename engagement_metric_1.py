@@ -14,7 +14,6 @@ import numpy as np
 from datetime import datetime
 from docx import Document
 from docx.shared import Inches
-!pip install matplotlib 
 import matplotlib.pyplot as plt
 matplotlib
 
